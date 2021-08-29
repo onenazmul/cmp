@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Coming Soon Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        .wrap, html, body {
+            height: 100%;
+            width: 100%;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .wrap {
+            display: table;
+        }
+
+        .wrap-in {
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+        }
+        .content-wrap {
+            background: #a3d5ff;
+            max-width: 620px;
+            margin: 0 auto;
+            padding: 1rem 3rem 3.5rem;
+            border-radius: 25px;
+            box-shadow: 0px 2px 0px 3px #88acde;
+            width: 80%;
+        }
+        .content-wrap img {
+            max-width: 250px;
+        }
+
+        h1 {
+            margin-bottom: 6px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 400;
+        }
+        .wrap {
+            background: linear-gradient(269deg, #4568dc, #36d1dc, #03838c, #2a038c);
+            background-size: 800% 800%;
+
+            -webkit-animation: BgAnimate 30s ease infinite;
+            -moz-animation: BgAnimate 30s ease infinite;
+            -o-animation: BgAnimate 30s ease infinite;
+            animation: BgAnimate 30s ease infinite;
+        }
+
+        @-webkit-keyframes BgAnimate {
+            0%{background-position:0% 51%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 51%}
+        }
+        @-moz-keyframes BgAnimate {
+            0%{background-position:0% 51%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 51%}
+        }
+        @-o-keyframes BgAnimate {
+            0%{background-position:0% 51%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 51%}
+        }
+        @keyframes BgAnimate {
+            0%{background-position:0% 51%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 51%}
+        }
+        @media (max-width:  767px){
+            .content-wrap {
+                padding: 10px 10px 45px;
+            }
+            .content-wrap img {
+                max-width: 195px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="wrap-in">
+            <div class="content-wrap">
+                <img src="https://image.flaticon.com/icons/png/512/5038/5038297.png" alt="">
+                <h1>Counting every seconds</h1>
+                <p>We are on the way to go live with something nicer! Please check back after couple of days</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
